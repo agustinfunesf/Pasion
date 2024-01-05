@@ -1,6 +1,5 @@
 
 
-
 .box-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -29,12 +28,12 @@
     color: var(--blue);
   }
 .box-info li:nth-child(2) .bx {
-    background: var(--light-yellow);
-    color: var(--yellow);
+    background: var(--light-green);
+    color: var(--green);
   }
 .box-info li:nth-child(3) .bx {
-    background: var(--light-orange);
-    color: var(--orange);
+    background: var(--light-yellow);
+    color: var(--yellow);
   }
 .box-info li .text h3 {
     font-size: 24px;
