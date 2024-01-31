@@ -132,3 +132,8 @@ input:checked + label:after {
 	left: calc(100%);
 	transform: translateX(-100%);
 }
+@media screen and (max-width: 800px) {
+  #toggleIcon {
+    display: none;
+  }
+}

@@ -4,32 +4,26 @@
       <span class="text">PASION</span>
     </a>
     <ul class="side-menu top">
-      <li class="active">
-        <a href="#">
+      <li [routerLinkActive]="['active']">
+        <a [routerLink]="['/home']">
           <i class='bx bxs-dashboard' ></i>
-          <span class="text">Dashboard</span>
+          <span class="text">Inicio</span>
         </a>
       </li>
-      <li>
-        <a href="#">
+      <li [routerLinkActive]="['active']">
+        <a [routerLink]="['/members']">
           <i class='bx bxs-group' ></i>
           <span class="text">Socios</span>
         </a>
       </li>
-      <li>
-        <a href="#">
+      <li [routerLinkActive]="['active']">
+        <a [routerLink]="['/analytics']">
           <i class='bx bxs-dollar-circle' ></i>
           <span class="text">Economía</span>
         </a>
       </li>
-      <li>
-        <a href="#">
-          <i class='bx bxs-calendar' ></i>
-          <span class="text">Eventos</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
+      <li [routerLinkActive]="['active']">
+        <a [routerLink]="['/users']">
           <i class='bx bxs-user-circle' ></i>
           <span class="text">Usuarios</span>
         </a>
